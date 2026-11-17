@@ -6,9 +6,9 @@ Je conçois des logiciels que des agents IA développent. J'écris les spécific
 
 ## Projets
 
-### Curalis
+### Lunero
 
-Logiciel médical desktop en production chez un cabinet parisien depuis août 2026 (Rust, Tauri, React, SQLite).
+Projet d'édition logicielle que j'ai cofondé : un logiciel de gestion de cabinet pour la médecine esthétique, qui garde les données chez le médecin (Rust, Tauri, React, SQLite). Un cabinet parisien s'en sert chaque jour depuis septembre 2026. Le site : [lunero.fr](https://lunero.fr).
 
 Je l'ai fait tester par deux agents IA aux droits séparés. L'application tourne dans une VM coupée d'internet et aucun des deux ne voit le code. Pour les mettre à l'épreuve j'ai caché 18 défauts. Ils ont tous été détectés. Les agents ont ensuite trouvé 9 vrais défauts sur des versions livrées que les 1 500 tests par scripts n'avaient pas vus.
 
@@ -19,10 +19,6 @@ Je l'ai fait tester par deux agents IA aux droits séparés. L'application tourn
 - J'ai conçu et mis en production un service web qui publie chaque jour les adresses IP à autoriser pour une centaine de partenaires.
 - Les demandes de dérogation passaient par mail. Je les ai remplacées par un circuit ServiceNow entièrement automatisé via API.
 - De ma propre initiative j'ai proposé puis prototypé un agent IA qui pré-traite les tickets de l'équipe cyber. Il ne visite aucun site pour éviter l'injection de prompt et l'analyste valide chaque réponse.
-
-### Lunero
-
-Projet d'édition logicielle que j'ai cofondé. Curalis est son premier logiciel livré.
 
 ### Clarveo
 
